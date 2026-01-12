@@ -161,6 +161,7 @@
     font-size: 14px;
     color: #aaa;
 }
+
 .Team {
     padding: 60px 0;
     background-color: #f8f9fa;
@@ -170,7 +171,7 @@
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
@@ -203,6 +204,7 @@
     font-size: 14px;
     color: #555;
 }
+
 .Travel {
     padding: 60px 0;
     background-color: #ffffff;
@@ -210,7 +212,6 @@
 
 .travel-img {
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
 .Travel p {
@@ -218,6 +219,7 @@
     color: #555;
     line-height: 1.7;
 }
+
 .contact {
     padding: 60px 0;
     background-color: #f8f9fa;
@@ -228,7 +230,7 @@
     background: #fff;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info h5 {
@@ -240,4 +242,9 @@
     font-size: 14px;
     color: #555;
     margin-bottom: 8px;
+}
+
+.faq {
+    padding: 60px 0;
+    background-color: #ffffff;
 }
