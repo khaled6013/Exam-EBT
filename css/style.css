@@ -248,3 +248,13 @@
     padding: 60px 0;
     background-color: #ffffff;
 }
+.counter {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+#live-clock {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
