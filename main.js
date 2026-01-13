@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // --- Live Date & Time Logic ---
     function updateClock() {
         const now = new Date();
         const options = { 
@@ -14,10 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     setInterval(updateClock, 1000);
     updateClock();
-
-    // --- Counter Up Animation Logic ---
     const counters = document.querySelectorAll('.counter');
-    const animationSpeed = 200; // Animation-er speed (beshi hole slow hobe)
+    const animationSpeed = 200; 
 
     const runCounter = () => {
         counters.forEach(counter => {
@@ -36,12 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
             updateCount();
         });
     };
-
-    // Scroll korle jokhon section-ti shamne ashbe tokhon animation shuru hobe
     const observer = new IntersectionObserver((entries) => {
         if(entries[0].isIntersecting) {
             runCounter();
-            observer.disconnect(); // Ekbar animation hoye gele bondho hoye jabe
+            observer.disconnect();
         }
     }, { threshold: 0.5 });
 
