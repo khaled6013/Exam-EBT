@@ -19,8 +19,6 @@
 .section-subtitle {
     color: #6c757d;
 }
-
-/* destination card */
 .destination-card {
     background: #fff;
     border-radius: 10px;
@@ -251,7 +249,7 @@
 .counter {
     font-size: 3rem;
     font-weight: 700;
-    color: #0d6efd; /* Bootstrap primary color */
+    color: #0d6efd;
 }
 
 #live-clock {
